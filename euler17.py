@@ -1,0 +1,1 @@
+dictionary = dict.fromkeys([1, 2, 6, 'ten'], 3)

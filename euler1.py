@@ -2,7 +2,7 @@
 
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-
+'''
 def multiples(n, t1, t2):
     sum = 0
     
@@ -22,6 +22,20 @@ def multiples(n, t1, t2):
         m+=1
     
     return sum
-print(multiples(1000, 3, 5))
+# print(multiples(1000, 3, 5))
+
+'''
+
+
+
+# Better Implementation -- Reading the overview of Project Euler
+
+term = 1000
+
+def sum_of_numbers(n):
+    p = term // n    
+    return n * p*(p+1)/2
+
+print(sum_of_numbers(3)+sum_of_numbers(5)-sum_of_numbers(15))
 
 

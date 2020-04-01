@@ -4,7 +4,7 @@
 
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-
+'''
 def fibo(n):
 
     if n==0:
@@ -23,4 +23,25 @@ while fibo(i) < (4 * (10**6)):
     i +=1
 print(sum)
 
+'''
 
+# Better Implementation -- Reading the overview of Project Euler INCOMPLETE
+
+
+
+target = 5
+
+
+def Fibonacci(target):
+
+    sum = 0
+    a, b = 1, 1
+
+    while b < target:
+        sum += b
+        h = a+b
+        a = b
+        b = h
+    return sum
+
+print(Fibonacci(target))

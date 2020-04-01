@@ -19,5 +19,7 @@ start = time.time()
 a, b, c = pythagorean_triplets(req_sum_of_terms)
 end = time.time()
 
+
 print(a*b*c)
 print(end-start)
+
