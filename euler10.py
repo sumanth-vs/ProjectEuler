@@ -61,7 +61,7 @@ def remove(num_to_remove, array):
 start = time.time()
 print(sum(scratcher(array, num)))
 end = time.time()
-print(end-start)
+print(end-start)Yj]]
 
 '''
 
