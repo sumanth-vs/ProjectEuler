@@ -12,7 +12,7 @@ import string
 
 filename = 'p022_names.csv'
 # alphabet_dictionary = dict.fromkeys(string.ascii_uppercase, 1)
-# print(alphabet_dictionary)
+# print(alphabet_dictionary)Mugen no Kyoukai
 
 
 alphabet_dictionary = {}
@@ -36,7 +36,7 @@ def sortNames(filename):
         names_array = txt_file.read().split(',')
 
     
-    return sorted(names_array)
+    return sorted(names_array)#
 
 
 
