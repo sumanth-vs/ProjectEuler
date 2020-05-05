@@ -11,11 +11,6 @@ contains 20 letters. The use of "and" when writing out numbers is in compliance 
 
 
 
-
-
-
-
-
 def nlc(number):
     s = 0
     for i in range(1, number+1):
@@ -48,7 +43,7 @@ def getLetterCount(i):
         return dictionary[i]
 
     if count == 2:
-        switch(i)
+        pass
 
 
 
